@@ -13,4 +13,6 @@ using ReveloBurger.Models;
         }
 
         public DbSet<ReveloBurger.Models.Burger> Burger { get; set; } = default!;
+
+public DbSet<ReveloBurger.Models.Promo> Promo { get; set; } = default!;
     }
