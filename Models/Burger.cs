@@ -11,5 +11,7 @@ namespace ReveloBurger.Models
         
         [Range(0.1,99.99)]
         public decimal Price { get; set; }
+
+        public List<Promo>? Promos {  get; set; } 
     }
 }
